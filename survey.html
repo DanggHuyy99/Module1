@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+<body>
+    <form>
+        <h2>Market Research Survey</h2>
+        <p>Please take a few moments to complêt this satisfaction survey</p>
+        <h3>What is your age range?</h3>
+            <select name="age" style="width: 200px;">
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+            </select>
+        <h3>What is your yearly income range?</h3>
+            <select name="age" style="width: 200px;">
+                <option value="0">&dollar;0</option>
+                <option value="5">&dollar;5,000</option>
+                <option value="10">&dollar;10,000</option>
+                <option value="15">&dollar;15,000</option>
+                <option value="20">&dollar;20,000</option>
+                <option value="25">&dollar;25,000</option>
+            </select>
+        <h3>Gender</h3>
+            <input type="radio" name="gender">Male <br>
+            <input type="radio" name="gender">Female
+            <h3>Which of the following products have your purchased in the last 2 months. Please check all that apply</h3>
+            <input type="checkbox" name="products"> Product 1 <br>
+            <input type="checkbox" name="products"> Product 2 <br>
+            <input type="checkbox" name="products"> Product 3
+        <h3>How often would you use our new product?</h3>
+            <input type="radio" name="how offen"> Daily <br>
+            <input type="radio" name="how offen"> Weekly <br>
+            <input type="radio" name="how offen"> Monthly
+        <h3>What would you pay for the new product?</h3>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            &dollar;
+                        </td>
+                        <td>
+                            <input type="number" style="width: 100px;">
+                        </td>
+                        <td>.</td>
+                        <td>
+                            <input type="number"style="width: 40px;" >
+                        </td>                   
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Dollars</td>
+                        <td></td>
+                        <td style="width: 7px;">Cents</td>
+                    </tr>
+                </tbody>
+            </table>
+        <p>Please rate your level of agreement with the following statements.</p>
+            <table border="1" style="border-color: blueviolet;border-collapse: collapse;" >
+                <tbody>
+                    <tr>
+                        <td style="width: 250px;height: 43px;text-align: center; background-color: rgb(197, 196, 194);"></td>
+                        <td style="width: 130px;height: 43px;text-align: center; background-color: rgb(197, 196, 194);">Strongly Disagree</td>
+                        <td style="width: 130px;height: 43px;text-align: center; background-color: rgb(197, 196, 194)" >Disagree</td>
+                        <td style="width: 130px;height: 43px;text-align: center; background-color: rgb(197, 196, 194)" >Agree</td>
+                        <td style="width: 130px;height: 43px;text-align: center; background-color: rgb(197, 196, 194)" >Strongly Agree</td>
+                    </tr>
+                    <tr>
+                        <th>Our products are priced fairly</th>
+                        <td style="text-align: center;">
+                            <input type="radio" name="fairly"><br>1
+                        </td>
+                        <td style="text-align: center;">
+                            <input type="radio" name="fairly"><br>2
+                        </td>
+                        <td style="text-align: center;">
+                            <input type="radio" name="fairly"><br>3
+                        </td>
+                        <td style="text-align: center;">
+                            <input type="radio" name="fairly"><br>4
+                        </td>
+                    </tr>
+                    <tr>
+                        <th style="background-color: rgb(197, 196, 194)">Our products are high quality</th>
+                        <td style="text-align: center;background-color: rgb(197, 196, 194) ">
+                            <input type="radio" name="high quality"><br>1
+                        </td>
+                        <td style="text-align: center;background-color: rgb(197, 196, 194)">
+                            <input type="radio" name="high quality"><br>2
+                        </td>
+                        <td style="text-align: center;background-color: rgb(197, 196, 194)">
+                            <input type="radio" name="high quality"><br>3
+                        </td>
+                        <td style="text-align: center;background-color: rgb(197, 196, 194)">
+                            <input type="radio" name="high quality"><br>4
+                        </td>
+                    </tr>
+                    <tr>
+                        <th >You would recommend out product to a friend or coworker</th>
+                        <td style="text-align: center;">
+                            <input type="radio" name="recommend"><br>1
+                        </td>
+                        <td style="text-align: center;">
+                            <input type="radio" name="recommend"><br>2
+                        </td>
+                        <td style="text-align: center;">
+                            <input type="radio" name="recommend"><br>3
+                        </td>
+                        <td style="text-align: center;">
+                            <input type="radio" name="recommend"><br>4
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    </form>
+</body>
+</html>
